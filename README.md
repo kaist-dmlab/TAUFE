@@ -19,7 +19,7 @@ A deep neural network (DNN) has achieved great success in many machine learning 
 
 
 ## 2. How to run
-###1. Image classification task
+**1. Image classification task**
 - go to the folder 'code/classification/', and run STANDARD.py, TAUFE.py with arguments:
 ```
 --in-data-name: the name of a target in-distribution dataset (string) # cifar10, cifar100, imgnet10
@@ -29,7 +29,7 @@ A deep neural network (DNN) has achieved great success in many machine learning 
 --taufe-weight: hyper-paramter lambda for taufe loss (float) # default:0.1
 ```
 
-###2. Semi-supervised learning task
+**2. Semi-supervised learning task**
 - go to the folder 'code/SSL/', and run MixMatch.py with arguments:
 ```
 --in-data-name: the name of a target in-distribution dataset (string) # cifar10, cifar100
@@ -39,7 +39,7 @@ A deep neural network (DNN) has achieved great success in many machine learning 
 --taufe-weight: hyper-paramter lambda for taufe loss (float) # default:0.1
 ```
 
-###3. Bounding-box regression task
+**3. Bounding-box regression task**
 - go to the folder 'code/regression/', and run bbox_Standard.py, bbox_TAUFE.py with arguments:
 ```
 --in-data-name: the name of a target in-distribution dataset (string) # cub200, car
