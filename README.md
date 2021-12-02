@@ -20,7 +20,7 @@ A deep neural network (DNN) has achieved great success in many machine learning 
 
 ## 2. How to run
 **1. Image classification task**
-- go to the folder 'code/classification/', and run STANDARD.py, TAUFE.py with arguments:
+- go to the folder 'code/classification/', and run STANDARD.py or TAUFE.py with arguments:
 ```
 --in-data-name: the name of a target in-distribution dataset (string) # cifar10, cifar100, imgnet10
 --ood-data-name: the name of an out-of-distribution dataset (string) # lsun, 80mTiny, svhn, imgnet990, places365
@@ -40,7 +40,7 @@ A deep neural network (DNN) has achieved great success in many machine learning 
 ```
 
 **3. Bounding-box regression task**
-- go to the folder 'code/regression/', and run bbox_Standard.py, bbox_TAUFE.py with arguments:
+- go to the folder 'code/regression/', and run bbox_Standard.py or bbox_TAUFE.py with arguments:
 ```
 --in-data-name: the name of a target in-distribution dataset (string) # cub200, car
 --ood-data-name: the name of an out-of-distribution dataset (string) # imgnet, places365
