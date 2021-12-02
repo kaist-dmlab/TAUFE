@@ -1,4 +1,4 @@
-# TAUFE: Task-Agnostic Undesirable Feature DeactivationUsing Out-of-Distribution Data
+# TAUFE: Task-Agnostic Undesirable Feature Deactivation Using Out-of-Distribution Data
 
 > __Publication__ </br>
 > Park, D., Song, H., Kim, M., and Lee, J., "Task-Agnostic Undesirable Feature Deactivation Using Out-of-Distribution Data," *In Proceedings of the 35th NeurIPS*, December 2021, Virtual. [[Paper]](https://openreview.net/pdf?id=4orlVaC95Bo)
